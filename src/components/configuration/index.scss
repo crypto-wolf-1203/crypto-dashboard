@@ -1,0 +1,107 @@
+.config-container {
+  & > hr {
+    transition: all ease .3s;
+  }
+  .accordion {
+    .accordion-item {
+      background: #111e31;
+      border: none;
+
+      .accordion-header button {
+        color: #FFFFFF;
+        box-shadow: none;
+        background: #111e31;
+
+        &::after {
+          background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23212529%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e") !important;
+        }
+      }
+    }
+
+    .alert-container {
+      padding: 8px 16px;
+    }
+
+    .alert-step {
+      .step-blank {
+        margin-left: 12px;
+        margin-bottom: 8px;
+        border-left: 1px solid #FFF;
+        height: 24px;
+      }
+
+      .step-desc {
+        .step-title {
+          display: flex;
+          align-items: center;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+
+          svg {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            fill: #FFF;
+
+            circle {
+              color: #62d2cf;
+            }
+
+            text {
+              font-size: 12px;
+            }
+          }
+
+          &.active {
+            svg circle {
+              color: #FFFFFF;
+            }
+          }
+        }
+
+        .step-info {
+          margin-left: 12px;
+          margin-top: 8px;
+          padding-left: 20px;
+          border-left: 1px solid #FFF;
+
+          .step-text {
+            font-size: 14px;
+            line-height: 20px;
+            margin-bottom: 0;
+
+            a {
+              text-decoration: none;
+              color: #62d2cf;
+            }
+          }
+
+          .step-btn-group {
+            margin-top: 20px;
+            .btn {
+              display: inline-block;
+              font-size: 12px;
+              padding: 3px 16px;
+              font-weight: 500;
+              line-height: 24px;
+              margin-right: 6px;
+              border-radius: 4px;
+              border: 0px !important;
+
+              &.back {
+                color: #FFFFFF;
+                background: transparent;
+              }
+
+              &.next {
+                background: #62D2CF;
+                color: #103469 !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

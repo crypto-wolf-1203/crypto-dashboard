@@ -1,0 +1,51 @@
+.watchlist-container {
+  .token-connect {
+    background: #62D2CF;
+    color: #103469 !important;
+    display: inline-block;
+    font-size: 13px;
+    padding: 3px 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 6px;
+    border-radius: 0.375rem;
+    border: 0px !important;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+
+    &.empty-text {
+      font-size: 17px;
+    }
+  }
+
+  .i-info {
+    margin-top: -8px;
+  }
+
+  .watchlist {
+    background: #F8F8FF;
+    border-radius: 4px;
+    border-bottom: transparent;
+
+    .nav-link {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24.5px;
+      color: #30323F;
+      padding: 12px 40px;
+      border: none;
+      border-radius: 0;
+
+      &.active {
+        background: #62d2cf;
+        color: #103469;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24.5px;
+      }
+    }
+  }
+}

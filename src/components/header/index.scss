@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background: #F8F8FF;
+  min-height: 64px;
+
+  * {
+    font-family: 'League Spartan', sans-serif !important;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-right: 8px;
+      max-height: 36px;
+    }
+
+    h6 {
+      font-size: 20px;
+      line-height: 32px;
+      letter-spacing: .15px;
+      color: #FFFFFF;
+      margin-bottom: 0;
+    }
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-nav {
+    flex-grow: 1;
+
+    .nav-link {
+      display: flex;
+      align-items: center;
+      margin-right: 50px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      img {
+        max-height: 22px;
+        margin-right: 6px;
+      }
+
+      span {
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: 10px;
+        color: #FFFFFF;
+      }
+
+      .token span {
+        color: #F3BA2F;
+      }
+    }
+
+    .divider {
+      height: 64px;
+      margin: 0 18px 0 0;
+      width: 1px;
+      background: #FFFFFF;
+      opacity: 1;
+    }
+  }
+}

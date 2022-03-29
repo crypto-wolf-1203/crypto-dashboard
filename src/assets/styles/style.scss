@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: #FFFFFF;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  flex: 1;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 26.68px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #F6851D !important;
+}
+
+p, span, li, strong, td, th {
+  color: #30323F !important;
+}
+
+.card {
+  background: #F8F8FF;
+  border-radius: 4px;
+  padding: 20px;
+  border: none;
+}
+
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+svg {
+  fill: #4E5661;
+  transition: all .3s ease;
+
+  &:hover {
+    fill: #FFF;
+  }
+}
+
+* {
+  font-family: "Open Sans",sans-serif;
+  color: #FFFFFF;
+}
